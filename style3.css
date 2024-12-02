@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: burlywood;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.event {
+    background-color: bisque;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.date {
+    font-size: 0.9rem;
+    color: #5a4e4e;
+    display: flex;
+    align-items: center;
+}
+
+.date span {
+    margin-right: 5px;
+    font-size: 1.2rem;
+}
